@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+body {
+    background-color: 
+    #704F4F;
+    padding: 0;
+    margin: 0;
+}
+
+.header-title {
+    background-color: #004225;
+    color: bisque;
+    text-align: center;
+    font-family: Kelly Slab;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/* navbar start */
+
+.navbar {
+    background-color: 
+    #F5F5DC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 0px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #0F0F0F;
+    font-family: 'Lilita One', cursive;
+}
+/* navbar end */
+
+/* ===================================================================================================================================== */
+/* main star */
+.container-main {
+    background-color: #FFB000
+     ;
+    display: flex;
+    flex-wrap: wrap ;
+    margin: 10px;
+    display: flex;
+}
+
+.container-content {
+    background-color: #0F0F0F;
+    flex: 2;
+}
+
+.container-1 {
+ background-color: #94A684;   
+}
+
+.container-2 {
+ background-color: #FFEEF4;   
+}
+
+.container-main .container-1 {
+    flex-basis: 70%;
+    margin-right: 10px;
+}
+.container-main .container-2 {
+    flex-basis: 70%;
+    margin-right: 10px;
+}
+
+.container-article {
+    background-color: #3085C3;
+}
+
+.container-main .container-aside {
+    flex-basis: 30%;
+    padding: 10px;
+}
+
+.container-aside {
+    background-color: #5B0888;
+    float: right !important;
+}
+
+.article-data-diri {
+    text-align: center;
+}
+
+.image {
+    width: 50%;
+    height: auto;
+    justify-content: center;
+} 
+
+.title-card {
+    color: bisque !important;
+}
+
+.title-from {
+    color: bisque;
+}
+/* main end */
+
+/* ================================================================================================================ */
+/* footer star */
+.container-footer {
+    background-color: 
+    #FFCF9D;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-footer .bio-contact {
+    padding: 0rem 0;
+}
+
+.social-media {
+    justify-content: center;
+}
+
+.social-media a {
+    margin-right: 10px;
+    color: #0F0F0F;
+}
+/* footer end */
+
+/* ================================================================================== */
+/* media query start */
+@media only screen and (max-width: 768px) {
+    .container-footer {
+        flex-direction: column;
+        font-size: 12px;
+    }   
+
+    .social-media a {
+        margin-bottom: 10x;
+    }
+}
+/* media query end */
