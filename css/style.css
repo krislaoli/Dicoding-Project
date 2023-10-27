@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #363062;
+}
+
+section {
+    background-color: #445D48;
+}
+
 body, input, button {
     font-family: 'Open Sans', sans-serif;
 }
