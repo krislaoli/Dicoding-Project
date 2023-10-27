@@ -12,6 +12,11 @@ section {
     background-color: #445D48;
 }
 
+.judul {
+    color: bisque;
+    font-size: 20px;
+}
+
 body, input, button {
     font-family: 'Open Sans', sans-serif;
 }
@@ -170,10 +175,14 @@ main {
 
 .book_shelf > .book_list > .book_item > .action > .green {
     background-color: darkgreen;
-    color: white;
+    color: bisque;
 }
 
 .book_shelf > .book_list > .book_item > .action > .red {
     background-color: darkred;
-    color: white;
+    color: bisque;
+}
+
+.book_item {
+    color: bisque !important;
 }
