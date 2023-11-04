@@ -1,3 +1,3 @@
 # Dicoding-Project
 
-Task : Belajar Dasar Pemograman Web
+Belajar Dasar Pemograman Web
