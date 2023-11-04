@@ -159,11 +159,11 @@ textarea::placeholder {
 
 .note-search input{
   background-color: #242220;
-  color: black !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .note-item__archive-button {
-  color: #fff263;
+  color: #ffffff;
 }
 
 .note-item__archive-button:hover {
